@@ -1,0 +1,187 @@
+[[package]]
+category = "main"
+description = "Cross-platform colored terminal text."
+name = "colorama"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "0.4.3"
+
+[[package]]
+category = "main"
+description = "A small Python package to hide or show the terminal cursor"
+name = "cursor"
+optional = false
+python-versions = "*"
+version = "1.3.4"
+
+[[package]]
+category = "main"
+description = "Better living through Python with decorators"
+name = "decorator"
+optional = false
+python-versions = "*"
+version = "4.0.11"
+
+[[package]]
+category = "main"
+description = "Beautiful terminal spinners in Python"
+name = "halo"
+optional = false
+python-versions = "*"
+version = "0.0.29"
+
+[package.dependencies]
+colorama = ">=0.3.9"
+cursor = ">=1.2.0"
+log-symbols = ">=0.0.14"
+six = ">=1.12.0"
+spinners = ">=0.0.24"
+termcolor = ">=1.1.0"
+
+[[package]]
+category = "main"
+description = "Library for reading and writing a wide range of image, video, scientific, and volumetric data formats."
+name = "imageio"
+optional = false
+python-versions = "*"
+version = "2.1.2"
+
+[package.dependencies]
+numpy = "*"
+pillow = "*"
+
+[[package]]
+category = "main"
+description = "Unofficial instagram API, give you access to ALL instagram features (like, follow, upload photo and video and etc)! Write on python."
+name = "instagramapi"
+optional = false
+python-versions = "*"
+version = "1.0.2"
+
+[package.dependencies]
+moviepy = "0.2.3.2"
+requests = "2.11.1"
+requests-toolbelt = "0.7.0"
+
+[[package]]
+category = "main"
+description = "Colored symbols for various log levels for Python"
+name = "log-symbols"
+optional = false
+python-versions = "*"
+version = "0.0.14"
+
+[package.dependencies]
+colorama = ">=0.3.9"
+
+[[package]]
+category = "main"
+description = "Video editing with Python"
+name = "moviepy"
+optional = false
+python-versions = "*"
+version = "0.2.3.2"
+
+[package.dependencies]
+decorator = "4.0.11"
+imageio = "2.1.2"
+numpy = "*"
+tqdm = "4.11.2"
+
+[[package]]
+category = "main"
+description = "NumPy is the fundamental package for array computing with Python."
+name = "numpy"
+optional = false
+python-versions = ">=3.5"
+version = "1.18.2"
+
+[[package]]
+category = "main"
+description = "Python Imaging Library (Fork)"
+name = "pillow"
+optional = false
+python-versions = ">=3.5"
+version = "7.1.1"
+
+[[package]]
+category = "main"
+description = "replit"
+name = "replit"
+optional = false
+python-versions = "*"
+version = "1.0.5"
+
+[[package]]
+category = "main"
+description = "Python HTTP for Humans."
+name = "requests"
+optional = false
+python-versions = "*"
+version = "2.11.1"
+
+[[package]]
+category = "main"
+description = "A utility belt for advanced users of python-requests"
+name = "requests-toolbelt"
+optional = false
+python-versions = "*"
+version = "0.7.0"
+
+[package.dependencies]
+requests = ">=2.0.1,<3.0.0"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+version = "1.14.0"
+
+[[package]]
+category = "main"
+description = "Spinners for terminals"
+name = "spinners"
+optional = false
+python-versions = "*"
+version = "0.0.24"
+
+[[package]]
+category = "main"
+description = "ANSII Color formatting for output in terminal."
+name = "termcolor"
+optional = false
+python-versions = "*"
+version = "1.1.0"
+
+[[package]]
+category = "main"
+description = "Fast, Extensible Progress Meter"
+name = "tqdm"
+optional = false
+python-versions = "*"
+version = "4.11.2"
+
+[metadata]
+content-hash = "4ebf130403b3d879b183afe0f0506a423ad0c906057720ca921ef523693e386f"
+python-versions = "^3.7"
+
+[metadata.hashes]
+colorama = ["7d73d2a99753107a36ac6b455ee49046802e59d9d076ef8e47b61499fa29afff", "e96da0d330793e2cb9485e9ddfd918d456036c7149416295932478192f4436a1"]
+cursor = ["33f279a17789c04efd27a92501a0dad62bb011f8a4cdff93867c798d26508940"]
+decorator = ["73cbaadb8bc4e3c65fe1100773d56331a2d756cc0f5c7b9d8d5d5223fe04f600", "953d6bf082b100f43229cf547f4f97f97e970f5ad645ee7601d55ff87afdfe76"]
+halo = ["67996649083229a9b7a93fe7c871c97d40bd2f1a988540eccf948a6b1844f644", "a8aeb0164e269d7c96fb7444b2a4caaa09b8989fa0c85e6a26e8b2c6d1af3b9d"]
+imageio = ["89d7692d9f513aa21665af7de94948bc1ef110d812fa66c34bfd486590d986bb"]
+instagramapi = ["a8dfcb7bd25d8eecefacc2b872d464888535c8ee0a99c8a5b81066fdc953e64f"]
+log-symbols = ["4952106ff8b605ab7d5081dd2c7e6ca7374584eff7086f499c06edd1ce56dcca", "cf0bbc6fe1a8e53f0d174a716bc625c4f87043cc21eb55dd8a740cfe22680556"]
+moviepy = ["59d550a81ed1c9f6cf167da6d0707cea52ab250ddc2bc6d48b14ab1fc0ea4a0d", "c733967656fa4be4c37ec48af72b63ab2991455aa862321437a013705797c4ab"]
+numpy = ["1598a6de323508cfeed6b7cd6c4efb43324f4692e20d1f76e1feec7f59013448", "1b0ece94018ae21163d1f651b527156e1f03943b986188dd81bc7e066eae9d1c", "2e40be731ad618cb4974d5ba60d373cdf4f1b8dcbf1dcf4d9dff5e212baf69c5", "4ba59db1fcc27ea31368af524dcf874d9277f21fd2e1f7f1e2e0c75ee61419ed", "59ca9c6592da581a03d42cc4e270732552243dc45e87248aa8d636d53812f6a5", "5e0feb76849ca3e83dd396254e47c7dba65b3fa9ed3df67c2556293ae3e16de3", "6d205249a0293e62bbb3898c4c2e1ff8a22f98375a34775a259a0523111a8f6c", "6fcc5a3990e269f86d388f165a089259893851437b904f422d301cdce4ff25c8", "82847f2765835c8e5308f136bc34018d09b49037ec23ecc42b246424c767056b", "87902e5c03355335fc5992a74ba0247a70d937f326d852fc613b7f53516c0963", "9ab21d1cb156a620d3999dd92f7d1c86824c622873841d6b080ca5495fa10fef", "a1baa1dc8ecd88fb2d2a651671a84b9938461e8a8eed13e2f0a812a94084d1fa", "a244f7af80dacf21054386539699ce29bcc64796ed9850c99a34b41305630286", "a35af656a7ba1d3decdd4fae5322b87277de8ac98b7d9da657d9e212ece76a61", "b1fe1a6f3a6f355f6c29789b5927f8bd4f134a4bd9a781099a7c4f66af8850f5", "b5ad0adb51b2dee7d0ee75a69e9871e2ddfb061c73ea8bc439376298141f77f5", "ba3c7a2814ec8a176bb71f91478293d633c08582119e713a0c5351c0f77698da", "cd77d58fb2acf57c1d1ee2835567cd70e6f1835e32090538f17f8a3a99e5e34b", "cdb3a70285e8220875e4d2bc394e49b4988bdb1298ffa4e0bd81b2f613be397c", "deb529c40c3f1e38d53d5ae6cd077c21f1d49e13afc7936f7f868455e16b64a0", "e7894793e6e8540dbeac77c87b489e331947813511108ae097f1715c018b8f3d"]
+pillow = ["04a10558320eba9137d6a78ca6fc8f4a5801f1b971152938851dc4629d903579", "0f89ddc77cf421b8cd34ae852309501458942bf370831b4a9b406156b599a14e", "251e5618125ec12ac800265d7048f5857a8f8f1979db9ea3e11382e159d17f68", "291bad7097b06d648222b769bbfcd61e40d0abdfe10df686d20ede36eb8162b6", "2f0b52a08d175f10c8ea36685115681a484c55d24d0933f9fd911e4111c04144", "3713386d1e9e79cea1c5e6aaac042841d7eef838cc577a3ca153c8bedf570287", "433bbc2469a2351bea53666d97bb1eb30f0d56461735be02ea6b27654569f80f", "4510c6b33277970b1af83c987277f9a08ec2b02cc20ac0f9234e4026136bb137", "50a10b048f4dd81c092adad99fa5f7ba941edaf2f9590510109ac2a15e706695", "5eef904c82b5f8e4256e8d420c971357da2884c0b812ba4efa15a7ad2ec66247", "670e58d3643971f4afd79191abd21623761c2ebe61db1c2cb4797d817c4ba1a7", "6c1924ed7dbc6ad0636907693bbbdd3fdae1d73072963e71f5644b864bb10b4d", "721c04d3c77c38086f1f95d1cd8df87f2f9a505a780acf8575912b3206479da1", "8d5799243050c2833c2662b824dfb16aa98e408d2092805edea4300a408490e7", "90cd441a1638ae176eab4d8b6b94ab4ec24b212ed4c3fbee2a6e74672481d4f8", "a5dc9f28c0239ec2742d4273bd85b2aa84655be2564db7ad1eb8f64b1efcdc4c", "b2f3e8cc52ecd259b94ca880fea0d15f4ebc6da2cd3db515389bb878d800270f", "b7453750cf911785009423789d2e4e5393aae9cbb8b3f471dab854b85a26cb89", "b99b2607b6cd58396f363b448cbe71d3c35e28f03e442ab00806463439629c2c", "cd47793f7bc9285a88c2b5551d3f16a2ddd005789614a34c5f4a598c2a162383", "d6bf085f6f9ec6a1724c187083b37b58a8048f86036d42d21802ed5d1fae4853", "da737ab273f4d60ae552f82ad83f7cbd0e173ca30ca20b160f708c92742ee212", "eb84e7e5b07ff3725ab05977ac56d5eeb0c510795aeb48e8b691491be3c5745b"]
+replit = ["0323725f7e0122a7ed2f123380974158c1a3c5f5c83972924864f633cc150ef7"]
+requests = ["545c4855cd9d7c12671444326337013766f4eea6068c3f0307fb2dc2696d580e", "5acf980358283faba0b897c73959cecf8b841205bb4b2ad3ef545f46eae1a133"]
+requests-toolbelt = ["33899d4a559c3f0f5e9fbc115d337c4236febdc083755a160a4132d92fc3c91a", "a0432b1124e6b33151ecf694497b4808690dd94ce68c6648c1daa63b771278c4"]
+six = ["236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a", "8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"]
+spinners = ["1eb6aeb4781d72ab42ed8a01dcf20f3002bf50740d7154d12fb8c9769bf9e27f", "2fa30d0b72c9650ad12bbe031c9943b8d441e41b4f5602b0ec977a19f3290e98"]
+termcolor = ["1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"]
+tqdm = ["14baa7a9ea7723d46f60de5f8c6f20e840baa7e3e193bf0d9ec5fe9103a15254", "1621b3476c2224045d8bd57209aab006612a46ae2cc518b4a92ad988983e4c3d"]
